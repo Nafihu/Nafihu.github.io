@@ -423,3 +423,21 @@ html {
     max-width: 250px; /* Set the max-width to match folder.png size */
     height: auto; /* Maintain aspect ratio */
 }
+
+.phone ion-icon:hover {
+        color: #c2200a; /* Darker color on hover */
+    }
+    
+    .icons {
+        margin-top: 20px; /* Example margin */
+    }
+    
+    .icons ion-icon {
+        font-size: 36px; /* Adjust icon size */
+        color: #0077b5; /* Example color */
+    }
+    
+    .icons ion-icon:hover {
+        color: #c2200a; /* Darker color on hover */
+    }
+
