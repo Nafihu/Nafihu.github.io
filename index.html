@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafihu's Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#Projects">My Projects</a></li> 
+                   <li><a href="#about">About Me</a></li> 
+                   <li><a href="#Contact">Get in touch</a></li> 
+                   <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+                <P>Software Engineer</P>
+                <h1>My name is Nafihu Lawal</h1>
+        </div>
+    </div>
+</div>
+<!-- About Me section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-column1"><img src="portpic.png" alt="Profile Picture"></div>
+            <div class="about-column2">
+                <h1 class="subheading">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi a sunt alias praesentium itaque nulla delectus tempore ipsum officia aspernatur neque quae, facilis ducimus accusamus rem mollitia explicabo voluptatem quas.</p>
+                
+                <div class="about_subtitles">
+                    <p class="tab-link active-link" onclick="openTab('My Skills')">My Skills</p>
+                    <p class="tab-link" onclick="openTab('My CV')">My CV</p>
+                </div>
+                <div class="tab-content active-tab" id="My Skills">
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML & CSS</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="My CV">
+                    <a href="Nafihu Lawal CV.pdf" target="_blank">My CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- portfolio -->
+ <div id="Projects">
+    <div class="container">
+        <h1 class="my-projects">Here are my Projects</h1>
+        <div class="project-list">
+            <!-- filler pictures will swap for snappshots of my actual projects -->
+            <div class="work">Expense Tracker 
+                <img src="enspense_ss.png">
+                <div class="layer">
+                    <h3>Expense Tracker</h3>
+                    <p>This is an Expense tracker that i created using python.</p>
+                    <div class="skill_icon">Skills:<i class="fa-brands fa-python"></i></div>
+                    <a href="https://github.com/Nafihu/ExpenseTracker"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                </div>
+            </div>
+            <div class="work">My Calculator App
+                <img src="calculator pic .png">
+                <div class="layer">
+                    <h3>My Calculator App</h3>
+                    <p>This is my calculator app that I created using JavaScript, HTML, and CSS.</p>
+                    <div class="skill_icon">
+                        Skills:
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <a href="calc_index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">Weather App
+                <img src="WAPIc.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This is my weather app that uses the Fetch API to retrieve weather information from the OpenWeatherMap API. </p>
+                    <div class="skill_icon">
+                        Skills:
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <a href="weatherindex.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <!-- Hidden projects initially -->
+            <div class="hidden-projects">
+                <div class="work">image4
+                    <img src="folder.png">
+                    <div class="layer">
+                        <h3>Name of the project</h3>
+                        <p>Description of my project.</p>
+                        <a href="AddMyGithublink.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">image5
+                    <img src="folder.png">
+                    <div class="layer">
+                        <h3>Name of the project</h3>
+                        <p>Description of my project.</p>
+                        <a href="AddMyGithublink.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">image6
+                    <img src="folder.png">
+                    <div class="layer">
+                        <h3>Name of the project</h3>
+                        <p>Description of my project.</p>
+                        <a href="AddMyGithublink.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">image7
+                    <img src="folder.png">
+                    <div class="layer">
+                        <h3>Name of the project</h3>
+                        <p>Description of my project.</p>
+                        <a href="AddMyGithublink.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <a href="#" id="btn_more" class="btn_more">See More</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- contact section  -->
+ <div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Nafihulawal1@gmail.com</p>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name = "Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email address" required>
+                    <textarea name="message"  rows=" 6" placeholder="Type message"></textarea>
+                    <button type="submit" class="sub-btn">Submit</button>
+                </form>
+                <h1></h1>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<div id="back-arrow">
+    <a href="#header" class="back-button"><i class="fa-solid fa-angle-up"></i></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
