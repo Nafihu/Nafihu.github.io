@@ -440,4 +440,11 @@ html {
     .icons ion-icon:hover {
         color: #c2200a; /* Darker color on hover */
     }
+#https\:\/\/www\.linkedin\.com\/in\/nafihu-lawal-483baa163\/ {
+  cursor: pointer;
+}
+
+#https\:\/\/www\.linkedin\.com\/in\/nafihu-lawal-483baa163\/:hover i {
+  color: red;
+}
 
